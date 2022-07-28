@@ -59,3 +59,6 @@ input {
   background-color: transparent  ;
   border-color: transparent;
 }
+html {
+  scroll-behavior: smooth;
+}
