@@ -1,0 +1,68 @@
+body{
+    background-color: #101010;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat'
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.gg{
+    display: inline-block; /* Строчно-блочный элемент */
+    background-color: #383838; /* Серый цвет фона */
+    padding: 21px 21px 21px 21px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 16px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.gl{
+
+    padding: 3.2px 3.5px 3.3px 3.5px;
+    position: relative;
+    background: linear-gradient(#F5AF19, #F12711);
+    border-radius: 16px;
+    margin-top: 275px;
+    display: flex;
+    height: 200px;
+}
+.f1{
+    display: inline-block; /* Строчно-блочный элемент */
+    background-color: #383838; /* Серый цвет фона */
+    padding: 4px 21px 4px 21px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 6px;
+    color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text1{
+    max-width: 108px;
+    padding: 3.2px 3.5px 3.3px 3.5px;
+    position: relative;
+    background: linear-gradient(#F5AF19, #F12711);
+    border-radius: 6px;
+    display: flex;
+    margin-left: 108px;
+    margin-top: 45px;
+}
+
+.text1:hover{
+    max-width: 108px;
+    padding: 3.2px 3.5px 3.3px 3.5px;
+    position: relative;
+    background: linear-gradient(#F953C6, #B91D73);
+    border-radius: 6px;
+}
+.gg p{
+    margin-top: 60px;
+}

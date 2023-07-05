@@ -1,0 +1,247 @@
+@media only screen and (min-width: 1201px) {
+  .header .buttons {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+
+  .header .text2 {
+    margin-right: 42px;
+  }
+
+  .header .films {
+    width: 88%;
+  }
+
+  .header .fi {
+    width: 90%;
+  }
+
+  .header .films:hover {
+    width: 88%;
+  }
+
+  .header .fi:hover {
+    width: 90%;
+  }
+
+  .img {
+    display: flex;
+    width: 32.39666666789%;
+  }
+
+  .gl2 .u .text4 {
+    margin-left: 32.6%;
+    width: 33%;
+  }
+
+  .img img {
+    display: flex;
+    width: 100%;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .header .films {
+    width: 89%;
+  }
+
+  .header .fi {
+    width: 90%;
+  }
+
+  .header .films:hover {
+    width: 89%;
+  }
+
+  .header .fi:hover {
+    width: 90%;
+  }
+
+  .header .buttons {
+    display: none;
+  }
+
+  .header .text2 {
+    margin-right: 33px;
+  }
+
+  .u .text4 {
+    margin-left: 0;
+    width: 53.3%;
+  }
+
+  .img {
+    width: 46.7%;
+  }
+
+  .img img {
+    width: 78.2%;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header .films {
+    width: 80.9%;
+  }
+
+  .header .films:hover {
+    width: 80.9%;
+  }
+
+  .text5 h1 {
+    color: #434343;
+    font-size: 21px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 10.88px;
+  }
+
+  .one,
+  .two,
+  .fre,
+  .four {
+    margin-left: 16%;
+    margin-top: 17%;
+  }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .tt .text2 {
+    display: none;
+  }
+
+  .header .films {
+    width: 63%;
+  }
+
+  .gl2 .text3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6.3%;
+  }
+
+  .gl2 .po {
+    background: linear-gradient(#F5AF19, #F12711);
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img {
+    width: 48%;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .one img,
+  .two img,
+  .fre img,
+  .four img {
+    width: 95%;
+
+
+  }
+
+  .one,
+  .two,
+  .fre,
+  .four {
+    margin-left: 5%;
+    margin-top: 17%;
+  }
+
+  .text5 {
+    margin-left: 5%;
+  }
+
+  .text5 h1 {
+    font-size: 21px;
+  }
+
+  .text6 h1 {
+    color: #D8D8D8;
+    font-size: 21px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 10.88px;
+  }
+
+  .lsh .j {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lsh .five img {
+    width: 90%;
+    margin-top: 18%;
+    transition: 0.4s;
+  }
+
+  .gl2 .lsh {
+    width: 47%;
+    margin-left: 5%;
+  }
+
+  .gl2 .u .text4 {
+    margin-left: 2.7%;
+    width: 44.2%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header .films {
+    width: 28%;
+  }
+  .header .films:hover{
+    width: 28%;
+  }
+
+  .text5 h1 {
+    font-size: 13px;
+    color: #434343;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 10.88px;
+  }
+  .gl2 .text3 h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 6vmax;
+    background-color: #2AA5A0;
+    background-image: linear-gradient(#F12711, #F5AF19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text6 h1 {
+  color: #D8D8D8;
+  font-size: 13px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 10.88px;
+}
+.gl2 .u h1 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 3.6vmax;
+  font-style: normal;
+  font-weight: 300;
+  background-color: #2AA5A0;
+  background-image: linear-gradient(#FC6767, #EC008C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {}
